@@ -7,8 +7,10 @@
 
       <param name="robot_description"
             command="$(find xacro)/xacro '$(find robot_model_final)/urdf/robot_model_final.urdf'" /> 
+            
       <!-- Load display.launch -->
       <include file="$(find robot_model_final)/launch/display.launch" />
+
       <!-- Load Controllers -->
       <rosparam file="$(find robot_model_final)/config/mecanum_controllers.yaml" command="load" />
       <node name="controller_spawner" pkg="controller_manager" type="spawner"
