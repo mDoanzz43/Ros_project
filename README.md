@@ -50,7 +50,7 @@ rosrun robot_model_final mecanum_control.py
 ```
 Ấn các phím "w,x,a,d,s" để di chuyển xe
 
-## Chạy chuong trình hiển thị giữ liệu
+## Chạy chương trình để theo dõi dữ liệu
 ### Hiển thị dữ liệu từ imu
 ``` bash
 rosrun robot_model_final imu.py
