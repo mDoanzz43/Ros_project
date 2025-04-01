@@ -6,6 +6,7 @@ Mô phỏng và điều khiển Robot mecanum bốn bánh xe có khả năng di 
 ## Yêu cầu
 - Sử dụng Ros1 với phiên bản hỗ trợ ROS Noetic
 - Có Gazebo và Rviz
+- ⚠️ Có thể cần cài đặt gói này nếu không có velocity_controllers/JointVelocityController: sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
 
 ## Cài đặt
 
@@ -50,7 +51,7 @@ Nhấn phím "a, d, q, e, s" để điều khiển
 rosrun robot_model_final mecanum_control.py
 ```
 Ấn các phím "w,x,a,d,s" để di chuyển xe
-⚠️ Có thể cần cài đặt gói này nếu không có velocity_controllers/JointVelocityController: sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
+
 
 ## Chạy chương trình để theo dõi dữ liệu
 ### Hiển thị dữ liệu từ imu
