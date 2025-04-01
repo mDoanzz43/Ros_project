@@ -57,12 +57,12 @@ rosrun robot_model_final imu.py
 ```
 ![image](https://github.com/user-attachments/assets/bca98df8-0593-4e78-bca6-b666758eb8de)
 
-hoặc
+Hoặc
 
 ``` bash
 rostopic echo /imu
 ```
-
+⚠️ Vào màn hình của cửa sổ rviz -> tick vào topic imu -> Chỉnh hệ số alpha nhỏ xuống để theo dõi trục
 
 ### Hiển thị dữ liệu từ Camera
 ``` bash
