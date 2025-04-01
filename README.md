@@ -80,3 +80,6 @@ rqt_image_view
 ```
 ![image](https://github.com/user-attachments/assets/295a4a25-c703-47c9-84b7-20bd0258860d)
 
+
+## Em có nhờ bạn gitclone về để xem có được không nhưng mà bị lỗi không spawn ra gazebo. Nếu anh cũng bị thì anh xem video này hộ em nha anh, em xin lỗi vì sự bất tiện này ạ
+https://youtu.be/TWkJFdkjOTs
