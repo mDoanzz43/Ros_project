@@ -82,4 +82,4 @@ rqt_image_view
 
 
 #### Em có nhờ bạn gitclone về để xem có được không nhưng mà bị lỗi không spawn robot trong gazebo. Nếu anh cũng bị thì anh xem video này hộ em nha anh, em xin lỗi vì sự bất tiện này ạ
-https://youtu.be/TWkJFdkjOTs
+https://www.youtube.com/watch?v=vZ4uYn-2GaE
