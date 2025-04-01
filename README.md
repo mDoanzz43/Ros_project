@@ -30,6 +30,7 @@ git clone https://github.com/mDoanzz43/Ros_project.git
 roslaunch robot_model_final control.py
 ```
 Kết quả:
+![image](https://github.com/user-attachments/assets/0c6bf812-9f3e-440c-89ad-48933ffb2ba2)
 
 
 ### Chạy Node điều khiển tay máy (2 Node)
@@ -54,6 +55,7 @@ rosrun robot_model_final mecanum_control.py
 ``` bash
 rosrun robot_model_final imu.py
 ```
+![image](https://github.com/user-attachments/assets/bca98df8-0593-4e78-bca6-b666758eb8de)
 
 hoặc
 
@@ -61,12 +63,17 @@ hoặc
 rostopic echo /imu
 ```
 
+
 ### Hiển thị dữ liệu từ Camera
 ``` bash
 rqt_image_view
 ```
+![image](https://github.com/user-attachments/assets/e36abf3f-c1b7-44c3-85ef-0a03050267fc)
+
 
 ### Hiển thị dữ liệu từ Lidar
 ``` bash
  rostopic echo /lidar/scan
 ```
+![image](https://github.com/user-attachments/assets/295a4a25-c703-47c9-84b7-20bd0258860d)
+
