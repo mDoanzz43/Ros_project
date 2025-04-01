@@ -27,7 +27,7 @@ git clone https://github.com/mDoanzz43/Ros_project.git
 ## Chạy chương trình điều khiển Robot
 ### Chạy roslaunch để hiển thị robot trong môi trường Rviz và Gazebo
 ``` bash
-roslaunch robot_model_final control.py
+roslaunch robot_model_final control.launch
 ```
 Kết quả:
 ![image](https://github.com/user-attachments/assets/0c6bf812-9f3e-440c-89ad-48933ffb2ba2)
@@ -45,10 +45,12 @@ rosrun robot_model_final arm_control_keyboard.py
 ```
 Nhấn phím "a, d, q, e, s" để điều khiển
 ### Chạy Node điều khiển xe mecanum
+
 ``` bash
 rosrun robot_model_final mecanum_control.py
 ```
 Ấn các phím "w,x,a,d,s" để di chuyển xe
+⚠️ Có thể cần cài đặt gói này nếu không có velocity_controllers/JointVelocityController: sudo apt-get install ros-noetic-ros-control ros-noetic-ros-controllers
 
 ## Chạy chương trình để theo dõi dữ liệu
 ### Hiển thị dữ liệu từ imu
