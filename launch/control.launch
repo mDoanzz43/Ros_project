@@ -5,16 +5,10 @@
             <arg name="use_sim_time" value="true" />
       </include>
 
-      <!-- Load Robot Model -->
       <param name="robot_description"
-            command="$(find xacro)/xacro '$(find robot_model_final)/urdf/robot_model_final.urdf'" />
-      <!-- Load display.launch -->      
+            command="$(find xacro)/xacro '$(find robot_model_final)/urdf/robot_model_final.urdf'" /> 
+      <!-- Load display.launch -->
       <include file="$(find robot_model_final)/launch/display.launch" />
-
-      <!-- Spawn Robot in Gazebo
-      <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-urdf -model robot_model_final -x 0 -y 0 -z 0.1 -param robot_description" /> -->
-
       <!-- Load Controllers -->
       <rosparam file="$(find robot_model_final)/config/mecanum_controllers.yaml" command="load" />
       <node name="controller_spawner" pkg="controller_manager" type="spawner"
