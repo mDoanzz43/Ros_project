@@ -1,9 +1,12 @@
 <launch>
       <!-- Load Gazebo with Custom World -->
-      <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch">
             <arg name="world_name" value="$(find robot_model_final)/worlds/create_world.world" />
             <arg name="use_sim_time" value="true" />
-      </include>
+      </include> -->
+
+      <include file="$(find robot_model_final)/launch/gazebo.launch" />
+
 
       <param name="robot_description"
             command="$(find xacro)/xacro '$(find robot_model_final)/urdf/robot_model_final.urdf'" /> 

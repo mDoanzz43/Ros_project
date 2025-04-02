@@ -38,7 +38,7 @@ class MecanumKeyboardControl:
         while not rospy.is_shutdown():
             key = self.get_key()
             
-            vx, vy, omega = 0.0, 0.0, 0.0
+            vx, vy, omega = 0.0, 0.0, 0.0   
             
             if key == 'w':  # Tien
                 vx = -self.max_speed
