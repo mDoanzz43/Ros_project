@@ -7,7 +7,6 @@
 
       <include file="$(find robot_model_final)/launch/gazebo.launch" />
 
-
       <param name="robot_description"
             command="$(find xacro)/xacro '$(find robot_model_final)/urdf/robot_model_final.urdf'" /> 
             
